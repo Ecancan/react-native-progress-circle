@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:MrToph/react-native-progress-circle.git"
+    "url": "https://github.com/Ecancan/react-native-progress-circle.git"
   },
   "keywords": [
     "react",
@@ -16,7 +16,7 @@
     "progress",
     "indicator"
   ],
-  "author": "Christoph Michel",
+  "author": "Ahmet CAN",
   "license": "MIT",
   "dependencies": {
     "deprecated-react-native-prop-types": "^2.3.0"

@@ -1,3 +1,5 @@
+# !!! Fixed deprecated-react-native-prop-types issue
+
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Version](https://img.shields.io/npm/v/react-native-progress-circle.svg)](https://www.npmjs.com/package/react-native-progress-circle)
 [![npm](https://img.shields.io/npm/dt/react-native-progress-circle.svg)](https://www.npmjs.com/package/react-native-progress-circle)
@@ -15,30 +17,30 @@
 
 ## Installation
 
-`yarn add react-native-progress-circle`
+`yarn add @ecancan/react-native-progress-circle`
 
 or
 
-`npm install --save react-native-progress-circle`
+`npm install --save @ecancan/react-native-progress-circle`
 
 ## Usage
 
 ```javascript
-import ProgressCircle from 'react-native-progress-circle'
+import ProgressCircle from '@ecancan/react-native-progress-circle'
 
-render() {
-    return (
-        <ProgressCircle
-            percent={30}
-            radius={50}
-            borderWidth={8}
-            color="#3399FF"
-            shadowColor="#999"
-            bgColor="#fff"
-        >
-            <Text style={{ fontSize: 18 }}>{'30%'}</Text>
-        </ProgressCircle>
-    )
+const MyApp = () => {
+  return (
+    <ProgressCircle
+      percent={30}
+      radius={50}
+      borderWidth={8}
+      color="#3399FF"
+      shadowColor="#999"
+      bgColor="#fff"
+    >
+      <Text style={{ fontSize: 18 }}>{'30%'}</Text>
+    </ProgressCircle>
+  );
 }
 ```
 
@@ -58,6 +60,7 @@ render() {
 ## Author
 
 [Christoph Michel](http://cmichel.io)
+[Ahmet CAN](https://ecancan.com)
 
 ## Implementation Details
 
